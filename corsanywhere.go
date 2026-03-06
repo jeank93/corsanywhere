@@ -99,10 +99,10 @@ func corsProxy() http.Handler {
 		}
 
 		// Require origin header
-		if r.Header.Get("origin") == "" {
-			respondError(w, r, "origin header is required on the request")
-			return
-		}
+		//if r.Header.Get("origin") == "" {
+		//	respondError(w, r, "origin header is required on the request")
+		//	return
+		//}
 
 		proxy.ServeHTTP(w, r)
 	})
