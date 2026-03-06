@@ -1,4 +1,4 @@
-module github.com/goware/corsanywhere
+module github.com/jeank93/corsanywhere
 
 go 1.22
 
